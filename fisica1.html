@@ -13,6 +13,18 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/styles.css" />
+    <script
+      defer
+      src="/node_modules/@fortawesome/fontawesome-free/js/brands.js"
+    ></script>
+    <script
+      defer
+      src="/node_modules/@fortawesome/fontawesome-free/js/solid.js"
+    ></script>
+    <script
+      defer
+      src="/node_modules/@fortawesome/fontawesome-free/js/fontawesome.js"
+    ></script>
     <title>Fisica I!</title>
   </head>
   <body>
@@ -63,7 +75,7 @@
       </div>
     </nav>
 
-    <div class="container">
+    <div class="container mb-5">
       <div class="row">
         <div class="col">
           <div class="card border-dark mb-3 mt-4 shadow-sm">
@@ -72,62 +84,64 @@
                 <p class="card-text">Profesores y Horarios</p>
               </div>
               <div class="card-body">
-                <table class="table table-bordered border-dark">
-                  <thead class="table-dark">
-                    <tr>
-                      <th scope="col">#</th>
-                      <th scope="col">Martes</th>
-                      <th scope="col">Aula</th>
-                      <th scope="col">Jueves</th>
-                      <th scope="col">Aula</th>
-                      <th scope="col">Sábados</th>
-                      <th scope="col">Aula</th>
-                      <td class="table-dark">Profesor</td>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th scope="row">Comisión 1</th>
-                      <td>10 a 13hs</td>
-                      <td>Aula 24</td>
-                      <td>10 a 13hs</td>
-                      <td>Aula 20</td>
-                      <td>9 a 13</td>
-                      <td>Anf. H->C</td>
-                      <td>Passamai-H. Suárez.</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">Comisión 2</th>
-                      <td>10 a 13hs</td>
-                      <td>Aula 24</td>
-                      <td>10 a 13hs</td>
-                      <td>Aula 20</td>
-                      <td>9 a 13</td>
-                      <td>Anf. H->C</td>
-                      <td>Passamai-H. Suárez.</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">Comisión 3</th>
-                      <td>10 a 13hs</td>
-                      <td>Aula 24</td>
-                      <td>10 a 13hs</td>
-                      <td>Aula 20</td>
-                      <td>9 a 13</td>
-                      <td>Anf. H->C</td>
-                      <td>Passamai-H. Suárez.</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">Comisión 4</th>
-                      <td>10 a 13hs</td>
-                      <td>Aula 24</td>
-                      <td>10 a 13hs</td>
-                      <td>Aula 20</td>
-                      <td>9 a 13</td>
-                      <td>Anf. H->C</td>
-                      <td>Passamai-H. Suárez.</td>
-                    </tr>
-                  </tbody>
-                </table>
+                <div class="table-responsive">
+                  <table class="table table-bordered border-dark">
+                    <thead class="table-dark">
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Martes</th>
+                        <th scope="col">Aula</th>
+                        <th scope="col">Jueves</th>
+                        <th scope="col">Aula</th>
+                        <th scope="col">Sábados</th>
+                        <th scope="col">Aula</th>
+                        <td class="table-dark">Profesor</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">Comisión 1</th>
+                        <td>10 a 13hs</td>
+                        <td>Aula 24</td>
+                        <td>10 a 13hs</td>
+                        <td>Aula 20</td>
+                        <td>9 a 13</td>
+                        <td>Anf. H->C</td>
+                        <td>Passamai-H. Suárez.</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Comisión 2</th>
+                        <td>10 a 13hs</td>
+                        <td>Aula 24</td>
+                        <td>10 a 13hs</td>
+                        <td>Aula 20</td>
+                        <td>9 a 13</td>
+                        <td>Anf. H->C</td>
+                        <td>Passamai-H. Suárez.</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Comisión 3</th>
+                        <td>10 a 13hs</td>
+                        <td>Aula 24</td>
+                        <td>10 a 13hs</td>
+                        <td>Aula 20</td>
+                        <td>9 a 13</td>
+                        <td>Anf. H->C</td>
+                        <td>Passamai-H. Suárez.</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Comisión 4</th>
+                        <td>10 a 13hs</td>
+                        <td>Aula 24</td>
+                        <td>10 a 13hs</td>
+                        <td>Aula 20</td>
+                        <td>9 a 13</td>
+                        <td>Anf. H->C</td>
+                        <td>Passamai-H. Suárez.</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
             </div>
           </div>
@@ -378,7 +392,7 @@
         </div>
         <div class="col-sm-4 mt-3">
           <div class="card h-100 mt-3 shadow-sm">
-            <div class="card-body">
+            <div class="card-body mb-3">
               <h5 class="card-title">Special title treatment</h5>
               <p class="card-text">
                 With supporting text below as a natural lead-in to additional
@@ -390,6 +404,48 @@
         </div>
       </div>
     </div>
+
+    <!--footer begins -->
+    <footer class="bg-dark text-center text-white">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Linkedin -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="https://www.linkedin.com/in/juan-ignacio-s-541216143/"
+            role="button"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+
+          <!-- Github -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="https://github.com/IgnacioSantillan"
+            role="button"
+          >
+            <i class=""></i>
+            <i class="fab fa-github"></i>
+          </a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2021 Copyright of
+        <a class="text-white" href="https://mdbootstrap.com/"
+          >MDBootstrap.com</a
+        >
+        <a class="text-white" href="https://fontawesome.com/license"
+          >Common License for font awesome</a
+        >
+        <a href="" class="text-white">Juan Ignacio Santillan Moio</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
